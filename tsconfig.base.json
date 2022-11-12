@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@desterlib/hooks/react": ["libs/hooks/react/src/index.ts"],
+      "@desterlib/ui/web/chakra": ["libs/ui/web/chakra/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
